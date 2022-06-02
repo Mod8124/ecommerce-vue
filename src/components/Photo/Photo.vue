@@ -41,6 +41,11 @@ export default {
             screenSize.value = true
           }
         })
+          if(window.innerWidth>700) {
+            screenSize.value = false
+          } else {
+            screenSize.value = true
+          }
        })
 
       return {
