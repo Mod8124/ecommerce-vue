@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+@import './variables.scss';
+@import '../components/Card/Card.scss';
+@import '../components/Detail/Detail.scss';
+@import '../components/MiniCard/MiniCard.scss';
+@import '../components/Modal/Modal.scss';
+@import '../components/NavBar/NavBar.scss';
+@import '../components/Photo/Photo.scss';
+@import '../components/Price/Price.scss';
+@import '../components/ShowProduct/ShowProduct.scss';
+
+// views
+@import '../views/Home/Home.scss';
+@import '../views/Details/Details.scss';
+@import '../views/Product/Product.scss';
+
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+

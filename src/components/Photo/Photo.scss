@@ -1,0 +1,17 @@
+.photo__normal {
+    width:100% ;
+  }
+  
+  .photo__imgNormal {
+    width: 100%;
+    height: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius:20px ;
+  }
+
+  @media screen and (min-width:700px) {
+      .photo__imgNormal {
+          max-width: 600px;
+      }
+  }
