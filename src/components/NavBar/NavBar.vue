@@ -50,7 +50,7 @@
                 </div>
         </div><!--end nav__mobile-->
 
-        <div class="nav__logo">
+        <div class="nav__logo nav__logo--mobile">
            <img src="@/assets/images/logo.svg" alt="logo-svg">
         </div>
 
@@ -60,7 +60,9 @@
                       <span class="nav__cartNumber" v-if="shoes.length>0">{{shoes.length}}</span>
                   </div>
 
-                  <img src="@/assets/images/image-avatar.png" alt="avatar" class="nav__avatar">
+                 <div class="nav__avatarImg">
+                         <img src="@/assets/images/image-avatar.png" alt="avatar" class="nav__avatar">
+                 </div>
         </div>
  
         <div class="nav__miniCard" v-if="showMiniCard">

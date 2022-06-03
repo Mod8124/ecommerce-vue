@@ -7,11 +7,18 @@
 
 .nav__mobile {
     padding: 20px;
+    padding-bottom: 0;
     padding-left: 0;
     margin:0 auto;
     display: grid;
+    align-content: center;
     grid-template-columns:  auto auto auto;
     position: relative;
+
+    .nav__logo--mobile {
+        display: flex;
+        align-items: center;
+    }
 }
 
 .nav__cart {
@@ -26,8 +33,8 @@
         display:flex;
         padding-top: 10px;
         padding-bottom: 5px;
-        align-items: center;
         justify-content: center;
+        align-items: center;
 
         .nav__cartNumber {
             position: absolute;
@@ -47,6 +54,11 @@
             right: 20%;
         }
 
+    }
+
+    .nav__avatarImg {
+        display: flex;
+        align-items: center;
     }
 
     .nav__avatar {
@@ -151,6 +163,7 @@
         background-color:$DarkGrayishBlue;
         position: relative;
         left: 24%;
+        top:10px;
         z-index: 1000;
         transition: all 0.5s;
         cursor: pointer;
@@ -238,6 +251,11 @@
         display: none;
     }
 
+    .nav {
+        padding-bottom: 70px;
+    }
+}
+@media screen and (min-width:1445px) {
     .nav {
         padding-bottom: 100px;
     }

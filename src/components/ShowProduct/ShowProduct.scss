@@ -50,7 +50,7 @@
 .showProduct__origalIms {
     width: 100%;
     margin:0 auto;
-    border-radius: 20px;
+    border-radius: 0px;
     object-fit: fill;
 }
 
@@ -98,6 +98,10 @@
     .showProduct__imageThubnail {
         display: grid;
     }
+    .showProduct__origalIms {
+        border-radius: 20px;
+    }
+    
 
     .showProduct__arrow--left {
         left:-4%;
