@@ -42,9 +42,11 @@ export default {
       }
 
      const next = () => {
-      if(count.value <4) {
+      if(count.value <3) {
       count.value++
+      console.log('hola',count.value)
       }
+      console.log('adios')
      }
 
      const prev = () => {
