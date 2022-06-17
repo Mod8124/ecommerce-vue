@@ -40,8 +40,11 @@
     display: grid;
     grid-template-columns: auto auto auto;
 
+
     .nav__imgShopping {
         width: 55px;
+        max-height: 55px;
+        object-fit: cover;
         border-radius: 4px;
     }
     .nav__listShoppingDetails {

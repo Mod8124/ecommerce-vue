@@ -172,6 +172,8 @@
 }
 .nav__listShopping .nav__imgShopping {
   width: 55px;
+  max-height: 55px;
+  object-fit: cover;
   border-radius: 4px;
 }
 .nav__listShopping .nav__listShoppingDetails {
