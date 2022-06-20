@@ -3,6 +3,8 @@
   width: 90%;
   margin: 0 auto;
   max-width: 300px;
+  transition: all 0.5s;
+  border-radius: 10px;
 }
 .card .card__image {
   width: 100%;
@@ -10,6 +12,14 @@
   height: 220px;
   object-fit: cover;
   border-radius: 10px;
+}
+.card .price {
+  padding: 12px;
+}
+
+.card:hover {
+  box-shadow: -10px 4px 20px hsl(220deg, 14%, 75%);
+  transform: scale(1, 1);
 }
 
 .detail {
