@@ -3,6 +3,8 @@
     height: 100%;
     padding: 20px;
     padding-top: 20px;
+    max-width: 550px;
+    margin: 0 auto;
 }
 
 .detail__company {
@@ -22,9 +24,9 @@
 .detail__description {
     font-size: 16px;
     color:hsl(219, 9%, 45%);
-    max-width: 420px;
+    max-width: 550px;
     line-height: 26px;
-    widows: 100%;
+    width: 100%;
     padding-bottom: 10px;
 }
 
@@ -34,7 +36,7 @@
     grid-template-columns: 100%;
     grid-row-gap: 20px;
     justify-content: space-between;
-    max-width:420px;
+    max-width:550px;
     padding-top: 30px;
 }
 
@@ -104,6 +106,7 @@
     }
     .detail__add {
         grid-template-columns: 48% 48%;
+        max-width:420px;
     }
 
     .detail__buttons {
@@ -114,5 +117,9 @@
     .detail__addTocartBtn {
         grid-template-columns: 30% auto;
         text-align: center;
+    }
+
+    .detail__description {
+        max-width: 420px;
     }
 }
