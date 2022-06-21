@@ -1,6 +1,6 @@
 <template>
         <div class="card">
-            <img :src="shoe.image" class="card__image" loading="lazy">
+            <img :src="shoe.image" class="card__image" loading="lazy" :alt="shoe.name">  
 
             <Price :shoe="shoe"/>
         </div>
